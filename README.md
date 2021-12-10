@@ -16,7 +16,7 @@ Shows which services are the most popular. I aggregated all transactions to see 
 
 JOB 2 - JOINING TRANSACTIONS/CONTRACTS AND FILTERING:
 
-After obtaining this aggregate of the transactions, I performed a repartition join between this aggregate and contracts. The join was performed at the to_address field from the output of Job 1 with the address field of contracts
+After obtaining this aggregate of the transactions, I performed a repartition join between the aggregate and contracts. The join was performed at the to_address field from the output of Job 1 with the address field of contracts
 
 Secondly, in the reducer, if the address for a given aggregate from Job 1 was not present within contracts this was filtered out as it is a user address and not a smart contract.
 
