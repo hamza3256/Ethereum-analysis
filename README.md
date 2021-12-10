@@ -3,9 +3,11 @@ Big data processing
 Implemented a set of Map/Reduce and Spark jobs that process the given input and generates the data for the following:
 
 TIME ANALYSIS:
+
 Created a bar plot showing the number of transactions occurring every month between the start and end of the dataset.
 
 TOP TEN MOST POPULAR SERVICES:
+
 Showing top 10 smart contracts by total Ether received. MRJob based approach.
 
 JOB 1 - INITIAL AGGREGATION:
